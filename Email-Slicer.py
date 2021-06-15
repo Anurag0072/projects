@@ -1,0 +1,1 @@
+email = input("Enter your email address: ").strip()email_username = email[0:email.index('@')]email_domain = email[email.index('@') + 1:]msg = 'your email username is {},and your email domain is {}'msg_formatted = msg.format(email_username,email_domain)print(msg_formatted)
